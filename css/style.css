@@ -8,7 +8,7 @@
 /* general  */
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;;
 }
 
 img {
@@ -16,8 +16,8 @@ img {
 }
 
 .container {
-    width: 80%;
-    max-width: 1150px;
+    width: 70%;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -97,17 +97,17 @@ nav ul a.active:hover {
 
 .background {
   background-color: #B5CFE7;
-  padding-top: 40px;
-  height: 732px;
+  padding-top: 30px;
+  height: 710px;
 }
 
 .jumbotron.container {
-  margin-top: 130px;
+  margin-top: 125px;
 }
 
 .jumbotron h1 {
   font-size: 75px;
-  font-weight: bold;
+  font-weight: 900;
   padding-bottom: 60px;
 }
 
@@ -116,11 +116,12 @@ nav ul a.active:hover {
 }
 
 .jumbotron .content {
-  width: 68%;
+  width: 96%;
 }
 
 .jumbotron .content p {
-  padding-bottom: 38px;
+  padding-bottom: 30px;
+  color: #333938;
 }
 
 .jumbotron .content .btn {
