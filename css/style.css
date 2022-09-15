@@ -15,7 +15,7 @@ img {
   max-width: 100%;
 }
 
-container {
+.container {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
@@ -90,4 +90,54 @@ nav ul a.active:hover {
 
 
 /* footer */
+
+footer {
+  background-color: #000000;
+  height: 565px;
+  color: #FFFFFF;
+  padding-top: 100px;
+}
+
+footer h4 {
+  font-size: 23px;  
+  margin-bottom: 45px;
+}
+
+.footer-top {
+  display: flex;
+}
+
+.footer-top .col-menu {
+  width: calc(100% / 5);
+  padding-right: 20px;
+  margin-bottom: 115px;
+}
+
+.col-menu ul {
+  list-style: none;
+}
+
+.col-menu ul li {
+  margin-bottom: 15px;
+}
+
+.col-menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.col-menu ul li a:hover {
+  color: #c7c5c5;
+}
+
+.footer-bottom .line {
+  width: 115px;
+  height: 1px;
+  background-color: #FFFFFF;
+  margin-bottom: 45px;
+}
+
+.footer-bottom i {
+  margin-right: 5px;
+}
 
