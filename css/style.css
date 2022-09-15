@@ -88,6 +88,12 @@ nav ul a.active:hover {
 }
 
 
+/* jumbotron */
+
+.jumbotron.container {
+  margin-top: 175px;
+}
+
 
 /* footer */
 
