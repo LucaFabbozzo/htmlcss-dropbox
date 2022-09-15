@@ -17,7 +17,7 @@ img {
 
 .container {
     width: 80%;
-    max-width: 1200px;
+    max-width: 1150px;
     margin: 0 auto;
 }
 
@@ -31,12 +31,17 @@ img {
 /* button */
 
 .btn {
+  cursor: pointer;
   display: inline-block;
   background-color: #0062FE;
   color: #FFFFFF;
   padding: 8px 15px;
   font-size: .9rem;
   text-decoration: none;
+}
+
+.btn.big {
+  padding: 12px 20px;
 }
 
 .btn:hover{
@@ -90,10 +95,45 @@ nav ul a.active:hover {
 
 /* jumbotron */
 
-.jumbotron.container {
-  margin-top: 175px;
+.background {
+  background-color: #B5CFE7;
+  padding-top: 40px;
+  height: 732px;
 }
 
+.jumbotron.container {
+  margin-top: 130px;
+}
+
+.jumbotron h1 {
+  font-size: 75px;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+
+.jumbotron .down {
+  display: flex;
+}
+
+.jumbotron .content {
+  width: 68%;
+}
+
+.jumbotron .content p {
+  padding-bottom: 38px;
+}
+
+.jumbotron .content .btn {
+  margin-bottom: 20px;
+}
+.jumbotron .content .btn a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.jumbotron .content i {
+  font-size: 45px;
+}
 
 /* footer */
 
