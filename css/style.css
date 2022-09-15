@@ -15,6 +15,12 @@ img {
   max-width: 100%;
 }
 
+container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* utility */
 
 .debug {
@@ -80,3 +86,8 @@ nav ul a.active:hover {
   padding-bottom: 27px;
   border-bottom: 3px solid #0062FE;
 }
+
+
+
+/* footer */
+
