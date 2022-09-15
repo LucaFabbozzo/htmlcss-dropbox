@@ -22,6 +22,21 @@ img {
   background-color: rgba(143, 192, 159, 0.694);
 }
 
+/* button */
+
+.btn {
+  display: inline-block;
+  background-color: #0062FE;
+  color: #FFFFFF;
+  padding: 8px 15px;
+  font-size: .9rem;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background-color: #618CF7;
+}
+
 /* header */
 
 header {
@@ -38,7 +53,30 @@ header {
   padding: 20px 15px;
 }
 
+header .logo {
+  min-width: 125px;
+}
+
 .right, .left {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
   display: flex;
 }
 
+header nav ul li {
+  list-style: none;
+  padding: 0 30px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #4C4C4C;
+}
+
+nav ul a.active:hover {
+  padding-bottom: 27px;
+  border-bottom: 3px solid #0062FE;
+}
