@@ -55,6 +55,7 @@ img {
 
 .btn.big {
   padding: 12px 20px;
+  min-width: 200px;
 }
 
 .btn.big a {
@@ -216,7 +217,7 @@ main section .row .card ul li {
   padding: 10px 0;
 }
 
-.row .card i {
+.row .card i, .column i {
   color: #000000;
   margin-right: 5px;
 }
@@ -272,8 +273,20 @@ section .column {
 
 .column .border {
   border: 1px solid #DCDBDF;
-  height: 255px;
+  height: 280px;
 }
+
+.column p {
+  padding-top: 20px;
+}
+
+.column .btn.big {
+  margin-top: 20px;
+  padding: 10px 5px;
+  width: 240px;
+}
+
+/* middle */
 
 main section .middle {
   padding-bottom: 165px;
