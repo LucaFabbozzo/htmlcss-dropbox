@@ -349,6 +349,41 @@ main section .button-up .card {
   padding: 0 20px;
 }
 
+/* cubes */
+
+main section .cubes.left {
+  width: 635px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cubes.left img {
+  width: 160px;
+  color: #FFFFFF;
+}
+
+
+.cubes.left .cube {
+  width: 315px;
+  height: 315px;
+}
+
+.cube.top-left {
+  background-color: #A1D19A;
+}
+
+.cube.top-right {
+  background-color: #60072B;
+}
+
+.cube.bottom-left {
+  background-color: #0093CE;
+}
+
+.cube.bottom-right {
+  background-color: #FF1B1E;
+}
+
 
 /* footer */
 
