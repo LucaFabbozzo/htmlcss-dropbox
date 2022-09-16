@@ -44,10 +44,16 @@ img {
   padding: 8px 15px;
   font-size: .9rem;
   text-decoration: none;
+  text-align: center;
 }
 
 .btn.big {
   padding: 12px 20px;
+}
+
+.btn.big a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .btn:hover{
@@ -166,26 +172,21 @@ section form {
   list-style: none;
 }
 
-.row .card h4 {
+.row .card h4, .column h4 {
   font-size: 1.5rem;
   padding-bottom: 15px;
   padding-top: 20px;
 }
 
-.row .card h5 {
+.row .card h5, .column h5 {
   font-size: 1rem;
   padding: 20px 0;
 }
 
 .row .card .btn.big {
   margin: 30px 0;
-  padding: 10px 30px;
 }
 
-.row .card .btn.big a {
-  color: #FFFFFF;
-  text-decoration: none;
-}
 
 .row .card .line {
   width: 40px;
@@ -227,12 +228,13 @@ i {
 .row .card {
   width: calc(100% / 3);
   min-width: 200px;
-  height: 918px;
   padding: 12px;
+  margin-bottom: 30px;
 }
 
 .row .card .border {
   border: 1px solid #DCDBDF;
+  min-height: 918px;
 }
 
 .row .card .top {
@@ -244,6 +246,28 @@ i {
 .row .card .bottom {
   padding: 10px 20px; 
 }
+
+section .column {
+  min-width: 600px;
+  margin-bottom: 40px;
+}
+.column .top {
+  text-align: center;
+  border-bottom: 1px solid #DCDBDF;
+  padding: 10px 0;
+}
+
+.column .bottom {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 20px
+}
+
+.column .border {
+  border: 1px solid #DCDBDF;
+  height: 255px;
+}
+
 
 /* footer */
 
