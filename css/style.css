@@ -156,25 +156,24 @@ nav ul a.active:hover {
 }
 
 /* main */
-section .content {
-  padding: 0 12px;
-}
 
-section h3 {
+main section h3 {
   padding-top: 145px;
   font-size: 2.8rem;
   padding-bottom: 55px;
 }
 
-section label {
+main section label {
   padding-right: 35px;
 }
 
-section form {
+main section form {
   padding-bottom: 45px;
 }
 
-.row .card ul li {
+/* row */
+
+main section .row .card ul li {
   list-style: none;
 }
 
@@ -217,17 +216,17 @@ section form {
   padding: 10px 0;
 }
 
-i {
+.row .card i {
   color: #000000;
   margin-right: 5px;
 }
 
-.blue {
+.row .card .blue {
   color: #0062FE;
   font-weight: bold;
 }
 
-.row {
+main section .row {
   display: flex;
 }
 
@@ -253,6 +252,8 @@ i {
   padding: 10px 20px; 
 }
 
+/* column */
+
 section .column {
   min-width: 600px;
   margin-bottom: 150px;
@@ -274,20 +275,24 @@ section .column {
   height: 255px;
 }
 
-main section .middle img {
+main section .middle {
+  padding-bottom: 165px;
+}
+
+.middle img {
   width: 550px;
   margin-right: 50px;
 }
 
-main section .middle .lft {
+.middle .lft {
   float: left;
 }
 
-main section .middle .rgt {
+.middle .rgt {
  padding-top: 55px;
 }
 
-main section .middle .rgt p {
+.middle .rgt p {
   padding-bottom: 33px;
 }
 
