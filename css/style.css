@@ -21,6 +21,12 @@ img {
     margin: 0 auto;
 }
 
+.container-section {
+  width: 60%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 /* utility */
 
 .debug {
@@ -59,7 +65,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 75px;
+  height: 80px;
   background-color: #FFFFFF;
   padding: 20px 15px;
 }
@@ -75,11 +81,12 @@ header .logo {
 
 header nav ul {
   display: flex;
+  padding: 0 20px;
 }
 
 header nav ul li {
   list-style: none;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
 header nav ul li a {
@@ -89,7 +96,7 @@ header nav ul li a {
 
 nav ul a.active:hover {
   padding-bottom: 27px;
-  border-bottom: 3px solid #0062FE;
+  border-bottom: 3px solid #598de1;
 }
 
 
@@ -134,6 +141,108 @@ nav ul a.active:hover {
 
 .jumbotron .content i {
   font-size: 45px;
+}
+
+/* main */
+section .content {
+  padding: 0 12px;
+}
+
+section h3 {
+  padding-top: 145px;
+  font-size: 2.8rem;
+  padding-bottom: 55px;
+}
+
+section label {
+  padding-right: 35px;
+}
+
+section form {
+  padding-bottom: 45px;
+}
+
+.row .card ul li {
+  list-style: none;
+}
+
+.row .card h4 {
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+
+.row .card h5 {
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+.row .card .btn.big {
+  margin: 30px 0;
+  padding: 10px 30px;
+}
+
+.row .card .btn.big a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.row .card .line {
+  width: 40px;
+  height: 1px;
+  background-color: #DCDBDF;
+  margin-top: 30px;
+}
+
+.row .card .prize {
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding-bottom: 10px;
+}
+
+.row .card .month {
+  color: #8E8C8D;
+  padding-bottom: 40px;
+}
+
+.row .card .icons {
+  color: #454040;
+  padding: 10px 0;
+}
+
+i {
+  color: #000000;
+  margin-right: 5px;
+}
+
+.blue {
+  color: #0062FE;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+}
+
+.row .card {
+  width: calc(100% / 3);
+  min-width: 200px;
+  height: 918px;
+  padding: 12px;
+}
+
+.row .card .border {
+  border: 1px solid #DCDBDF;
+}
+
+.row .card .top {
+  text-align: center;
+  border-bottom: 1px solid #DCDBDF;
+  padding: 10px 0px;
+}
+
+.row .card .bottom {
+  padding: 10px 20px; 
 }
 
 /* footer */
@@ -190,4 +299,3 @@ footer h4 {
 }
 
 
- 
