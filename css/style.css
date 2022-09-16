@@ -178,7 +178,7 @@ section form {
   list-style: none;
 }
 
-.row .card h4, .column h4 {
+.row .card h4, .column h4, .middle h4 {
   font-size: 1.5rem;
   padding-bottom: 15px;
   padding-top: 20px;
@@ -275,12 +275,29 @@ section .column {
 }
 
 main section .middle img {
-  width: 570px;
+  width: 550px;
   margin-right: 50px;
 }
 
-main section .middle .rgt {
+main section .middle .lft {
   float: left;
+}
+
+main section .middle .rgt {
+ padding-top: 55px;
+}
+
+main section .middle .rgt p {
+  padding-bottom: 33px;
+}
+
+.middle .rgt .btn.big {
+  background-color: #FFFFFF;
+  border: 1px solid #4C4C4C ;
+}
+
+.middle .rgt .btn.big a {
+  color: #333938;
 }
 
 
