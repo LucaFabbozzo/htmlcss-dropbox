@@ -119,6 +119,7 @@ nav ul a.active:hover {
   background-color: #B5CFE7;
   padding-top: 30px;
   height: 710px;
+  margin-bottom: 150px;
 }
 
 .jumbotron.container {
@@ -159,9 +160,8 @@ nav ul a.active:hover {
 /* main */
 
 main section h3 {
-  padding-top: 145px;
   font-size: 2.8rem;
-  padding-bottom: 55px;
+  padding-bottom: 60px;
 }
 
 main section label {
@@ -316,6 +316,37 @@ main section .middle {
 
 .middle .rgt .btn.big a {
   color: #333938;
+}
+
+/* botton-up */
+
+main section .button-up {
+  padding-bottom: 150px;
+}
+
+main section .button-up h3 {
+  font-size: 2.7rem;
+  padding-bottom: 70px;
+}
+
+main section .button-up h4 {
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+}
+
+main section .button-up a {
+  color: #0062FE;
+}
+
+main section .button-up .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 200px;
+}
+
+main section .button-up .card {
+  width: calc(100% /3);
+  padding: 0 20px;
 }
 
 
