@@ -26,13 +26,13 @@ p {
 }
 
 .container {
-    width: 70%;
+    width: 80%;
     max-width: 1100px;
     margin: 0 auto;
 }
 
 .container-section {
-  width: 60%;
+  width: 65%;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -359,7 +359,7 @@ main section .button-up .card {
 
 /* button-down */
 
-main section .button-down {
+main section .button-down.top {
   display: flex;
   flex-wrap: nowrap;
 }
@@ -468,6 +468,48 @@ main section .cubes.center {
 .cubes.right .cube.bottom-right {
   background-color: #FED92F;
 }
+
+/* button-down button */
+
+.try {
+  background-color: #B4D0E6;
+  padding: 120px 0;
+}
+
+.try .left {
+  padding-right: 80px;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cont .left h3 {
+  padding: 0;
+  color: #62072B;
+  font-size: 2.5rem;
+}
+
+.try .cont .right .btn.big {
+  padding: 10px;
+  background-color: white;
+  width: 290px;
+}
+
+.try .cont .right .btn.big a {
+  color: #333938;
+}
+
+.try .cont .right .btn.big a:hover {
+  color: #767f7e;
+}
+
+
+
+
+
 
 /* footer */
 
