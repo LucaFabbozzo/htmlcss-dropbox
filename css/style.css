@@ -15,6 +15,16 @@ img {
   max-width: 100%;
 }
 
+p {
+  color: #333938;
+  line-height: 21px;
+}
+
+.line {
+  height: 1px;
+  background-color: #DCDBDF;
+}
+
 .container {
     width: 70%;
     max-width: 1100px;
@@ -142,7 +152,6 @@ nav ul a.active:hover {
 
 .jumbotron .content p {
   padding-bottom: 30px;
-  color: #333938;
 }
 
 .jumbotron .content .btn {
@@ -196,8 +205,6 @@ main section .row .card ul li {
 
 .row .card .line {
   width: 40px;
-  height: 1px;
-  background-color: #DCDBDF;
   margin-top: 30px;
 }
 
@@ -349,12 +356,13 @@ main section .button-up .card {
   padding: 0 20px;
 }
 
-/* cubes */
+/* cubes left */
 
 main section .cubes.left {
   width: 635px;
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .cubes.left img {
@@ -366,6 +374,7 @@ main section .cubes.left {
 .cubes.left .cube {
   width: 315px;
   height: 315px;
+  position: relative;
 }
 
 .cube.top-left {
@@ -384,6 +393,49 @@ main section .cubes.left {
   background-color: #FF1B1E;
 }
 
+.cube.top-left img,
+.cube.top-right img,
+.cube.bottom-left img,
+.cube.bottom-right img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/* cubes center */
+
+
+
+main section .cubes.center {
+  background-color:  #F5F5F5;
+  width: 635px;
+  height: 635px;
+  padding: 52px;
+}
+
+.cubes.center img {
+  width: 270px;
+  padding-bottom: 45px;
+}
+
+.cubes.center .line {
+  width: 105px;
+  margin-bottom: 45px;
+}
+
+.cubes.center p {
+  font-size: 1.1rem;
+  line-height: 22px;
+}
+
+.cubes.center .lead {
+  padding-top: 55px;
+}
+
+/* cubes right */
 
 /* footer */
 
