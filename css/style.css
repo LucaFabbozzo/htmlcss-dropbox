@@ -199,7 +199,11 @@ main section .row .card ul li {
 }
 
 .row .card .btn.big {
-  margin: 30px 0;
+  margin: 10px; 
+}
+
+.row .card .list-top {
+  padding-bottom: 35px;
 }
 
 
@@ -219,14 +223,17 @@ main section .row .card ul li {
   padding-bottom: 40px;
 }
 
+li .prova {
+  padding-left: 20px;
+}
 .row .card .icons {
   color: #454040;
-  padding: 10px 0;
+  padding-top: 10px;
+  padding-right: 10px;
 }
 
 .row .card i, .column i {
   color: #000000;
-  margin-right: 5px;
 }
 
 .row .card .blue {
@@ -236,19 +243,16 @@ main section .row .card ul li {
 
 main section .row {
   display: flex;
+  justify-content: space-between;
 }
 
 .row .card {
   width: calc(100% / 3);
-  min-width: 200px;
-  padding: 12px;
+  width: 260px;
   margin-bottom: 30px;
+  border: 1px solid #DCDBDF;
 }
 
-.row .card .border {
-  border: 1px solid #DCDBDF;
-  min-height: 918px;
-}
 
 .row .card .top {
   text-align: center;
@@ -264,7 +268,7 @@ main section .row {
 
 section .column {
   min-width: 600px;
-  margin-bottom: 150px;
+  padding-bottom: 150px;
 }
 .column .top {
   text-align: center;
@@ -369,7 +373,7 @@ main section .button-down.top {
 
 main section .cubes.left, 
 main section .cubes.right {
-  width: 488px;
+  width: calc(100% / 3);
   height: 488px;
   display: flex;
   flex-wrap: wrap;
@@ -426,14 +430,14 @@ main section .cubes.right {
 
 main section .cubes.center {
   background-color:  #F5F5F5;
-  max-width: calc(94% / 3);
+  max-width: calc(100% / 3);
   height: 488px;
   padding: 52px;
   overflow: scroll;
 }
 
 .cubes.center img {
-  width: 270px;
+  width: 230px;
   padding-bottom: 45px;
 }
 
