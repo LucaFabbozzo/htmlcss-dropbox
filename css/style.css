@@ -553,7 +553,7 @@ details {
 
 details summary {
   position: absolute;
-  top: 36px;
+  top: 32px;
   right: 37px;
 } 
 
@@ -568,12 +568,13 @@ details > summary::-webkit-details-marker {
 
 details > summary::before {
   content: "\2304";
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
-}
+} 
 
 details[open] > summary::before {
   content: "\2303";
+  font-weight: lighter;
 }
 
 
