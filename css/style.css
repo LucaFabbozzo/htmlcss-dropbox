@@ -200,10 +200,23 @@ main section .row .card ul li {
 
 .row .card .btn.big {
   margin: 10px; 
+  margin-bottom: 25px;
+}
+
+.row .card .btn.big a {
+  color: #FFFFFF;
+}
+
+.row .card .btn.big a:hover {
+  color: #dfddde;
+}
+
+.row .card a {
+  color: #403FF2;
 }
 
 .row .card .list-top {
-  padding-bottom: 3px;
+  padding-bottom: 50px;
 }
 
 
@@ -223,9 +236,8 @@ main section .row .card ul li {
   padding-bottom: 40px;
 }
 
-.row .card .icons {
-  color: #454040;
-  padding: 10px 0;
+.row .card ul li {
+  padding-bottom: 20px;
 }
 
 .row .card i, .column i {
