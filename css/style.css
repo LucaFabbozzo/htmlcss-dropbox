@@ -334,6 +334,10 @@ main section .middle {
   border: 1px solid #4C4C4C ;
 }
 
+.middle .rgt .btn.big:hover {
+  background-color: #f2ededcb;
+}
+
 .middle .rgt .btn.big a {
   color: #333938;
 }
@@ -400,10 +404,18 @@ main section .cubes.right {
 
 .cubes.left .cube,
 .cubes.right .cube {
+  cursor: pointer;
   width: calc(100% / 2);
   height: calc(100% / 2);
   position: relative;
 }
+
+
+ .cubes.left .cube:active,
+ .cubes.right .cube:active {
+  border: 20px solid rgba(148, 147, 147, 0.429);
+}
+
 
 .cube.top-left {
   background-color: #A1D19A;
@@ -482,7 +494,7 @@ main section .cubes.center {
   background-color: #FED92F;
 }
 
-/* button-down button */
+/* try section */
 
 .try {
   background-color: #B4D0E6;
