@@ -487,6 +487,7 @@ main section .cubes.center {
 .try {
   background-color: #B4D0E6;
   padding: 120px 0;
+  margin-bottom: 145px;
 }
 
 .try .left {
@@ -520,9 +521,20 @@ main section .cubes.center {
 }
 
 
+/* questions */
 
+.questions {
+  padding-bottom: 145px;
+}
 
+.questions .faq {
+  padding: 40px;
+}
 
+.questions .faq.top {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* footer */
 
