@@ -527,14 +527,24 @@ main section .cubes.center {
   padding-bottom: 145px;
 }
 
-.questions .faq {
-  padding: 40px;
+.questions .faq p {
+  font-size: 1.1rem;
+  font-weight: bolder;
 }
 
-.questions .faq.top {
+.questions .faq i {
+  padding-right: 45px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.questions .faq {
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
+
+
 
 /* footer */
 
