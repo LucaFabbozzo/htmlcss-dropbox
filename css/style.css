@@ -412,7 +412,7 @@ main section .cubes.right {
 .cubes.right .cube {
   cursor: pointer;
   width: calc(100% / 2);
-  height: calc(100% / 2);
+  height: calc(100% / 2); 
   position: relative;
 }
 
@@ -457,14 +457,14 @@ main section .cubes.right {
 
 main section .cubes.center {
   background-color:  #F5F5F5;
-  width: calc(100% / 3);
+  max-width: calc(100% / 3);
   height: 488px;
   padding: 52px;
   overflow: scroll;
 }
 
 .cubes.center img {
-  width: 230px;
+  width: 210px;
   padding-bottom: 45px;
 }
 
@@ -568,7 +568,7 @@ details > summary::-webkit-details-marker {
 
 details > summary::before {
   content: "\2304";
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: bold;
 } 
 
