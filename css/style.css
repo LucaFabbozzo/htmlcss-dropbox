@@ -394,14 +394,13 @@ main section .button-down.top {
 main section .cubes.left, 
 main section .cubes.right {
   width: calc(100% / 3);
-  height: 488px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .cubes.left img,
 .cubes.right img {
-  width: 130px;
+  width: 110px;
 }
 
 .filter {
@@ -420,7 +419,7 @@ main section .cubes.right {
 
  .cubes.left .cube:active,
  .cubes.right .cube:active {
-  border: 20px solid rgba(148, 147, 147, 0.429);
+  border: 20px solid rgba(114, 113, 113, 0.429);
 }
 
 
@@ -458,7 +457,7 @@ main section .cubes.right {
 
 main section .cubes.center {
   background-color:  #F5F5F5;
-  max-width: calc(100% / 3);
+  width: calc(100% / 3);
   height: 488px;
   padding: 52px;
   overflow: scroll;
@@ -483,7 +482,6 @@ main section .cubes.center {
   padding-top: 55px;
 }
 
-/* cubes right */
 
 .cubes.right .cube.top-left {
   background-color: #D50020;
@@ -542,6 +540,43 @@ main section .cubes.center {
 
 /* questions */
 
+.faq {
+  display: flex;
+  flex-direction: column;  
+  position: relative;
+}
+
+details {
+  cursor: pointer;
+
+}
+
+details summary {
+  position: absolute;
+  top: 36px;
+  right: 37px;
+} 
+
+
+details > summary {
+  list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::before {
+  content: "\2304";
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+details[open] > summary::before {
+  content: "\2303";
+}
+
+
 .questions {
   padding-bottom: 145px;
 }
@@ -549,6 +584,7 @@ main section .cubes.center {
 .questions .faq p {
   font-size: 1.1rem;
   font-weight: bolder;
+  padding-bottom: 20px;
 }
 
 .questions .faq i {
@@ -558,7 +594,7 @@ main section .cubes.center {
 }
 
 .questions .faq {
-  padding: 40px 0;
+  padding: 36px 0 20px 0px;
   display: flex;
   justify-content: space-between;
 }
