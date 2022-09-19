@@ -381,19 +381,17 @@ main section .button-up .business-card {
 }
 
 
-/* button-down */
+/* button-down - cubes */
 
 main section .button-down.top {
   display: flex;
   flex-wrap: nowrap;
 }
 
-
-/* cubes left */
-
 main section .cubes.left, 
 main section .cubes.right {
-  width: calc(100% / 3);
+  width: calc(100vw / 3);
+  height: calc(100vw / 3);
   display: flex;
   flex-wrap: wrap;
 }
@@ -411,8 +409,8 @@ main section .cubes.right {
 .cubes.left .cube,
 .cubes.right .cube {
   cursor: pointer;
-  width: calc(100% / 2);
-  height: calc(100% / 2); 
+  width: 50%;
+  height: 50%; 
   position: relative;
 }
 
@@ -450,15 +448,10 @@ main section .cubes.right {
 }
 
 
-
-/* cubes center */
-
-
-
 main section .cubes.center {
   background-color:  #F5F5F5;
-  max-width: calc(100% / 3);
-  height: 488px;
+  max-width: calc(100vw / 3);
+  max-height: calc(100vw / 3);
   padding: 52px;
   overflow: scroll;
 }
@@ -498,6 +491,8 @@ main section .cubes.center {
 .cubes.right .cube.bottom-right {
   background-color: #FED92F;
 }
+
+
 
 /* try section */
 
@@ -540,43 +535,14 @@ main section .cubes.center {
 
 /* questions */
 
-.faq {
-  display: flex;
-  flex-direction: column;  
-  position: relative;
-}
-
-details {
-  cursor: pointer;
-
-}
-
-details summary {
-  position: absolute;
-  top: 32px;
-  right: 37px;
-} 
-
-
-details > summary {
-  list-style-type: none;
-}
-
-details > summary::-webkit-details-marker {
+.none {
   display: none;
 }
 
-details > summary::before {
-  content: "\2304";
-  font-size: 1.4rem;
-  font-weight: bold;
-} 
-
-details[open] > summary::before {
-  content: "\2303";
-  font-weight: lighter;
+.faq {
+  display: flex;
+  cursor: pointer;
 }
-
 
 .questions {
   padding-bottom: 145px;
