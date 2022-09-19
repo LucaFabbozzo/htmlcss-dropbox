@@ -119,8 +119,8 @@ header nav ul li a {
 }
 
 nav ul a.active:hover {
-  padding-bottom: 27px;
-  border-bottom: 3px solid #598de1;
+  padding-bottom: 28px;
+  border-bottom: 2px solid #3b3b3c;
 }
 
 
@@ -164,7 +164,7 @@ nav ul a.active:hover {
 }
 
 .jumbotron .content i {
-  font-size: 45px;
+  font-size: 48px;
 }
 
 /* main */
@@ -352,39 +352,45 @@ main section .middle {
 
 /* botton-up */
 
-main section .button-up {
+main section .bottom-up {
   padding-bottom: 150px;
 }
 
-main section .button-up h3 {
+.bottom-up .top {
   font-size: 2.7rem;
   padding-bottom: 70px;
 }
 
-main section .button-up h4 {
+.bottom-up .bottom {
+  font-size: 2.7rem;
+  padding-bottom: 70px;
+  width: 600px;
+}
+
+main section .bottom-up h4 {
   font-size: 1.5rem;
   padding-bottom: 40px;
 }
 
-main section .button-up a {
+main section .bottom-up a {
   color: #0062FE;
 }
 
-main section .button-up .business-row {
+main section .bottom-up .business-row {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 200px;
 }
 
-main section .button-up .business-card {
+main section .bottom-up .business-card {
   width: calc(100% /3);
   padding: 35px 25px;
 }
 
 
-/* button-down - cubes */
+/* bottom-down - cubes */
 
-main section .button-down.top {
+main section .bottom-down.top {
   display: flex;
   flex-wrap: nowrap;
 }
@@ -418,7 +424,7 @@ main section .cubes.right {
 
  .cubes.left .cube:active,
  .cubes.right .cube:active {
-  border: 20px solid rgba(114, 113, 113, 0.429);
+  border: 15px solid rgba(228, 227, 227, 0.841);
 }
 
 
@@ -516,7 +522,7 @@ main section .cubes.center {
 .cont .left h3 {
   padding: 0;
   color: #62072B;
-  font-size: 2.5rem;
+  font-size: 2.6rem;
 }
 
 .try .cont .right .btn.big {
