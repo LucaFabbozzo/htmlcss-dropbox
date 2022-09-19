@@ -540,18 +540,33 @@ main section .cubes.center {
   cursor: pointer;
 }
 
-.faq .answer .none,
+.faq .answer .text,
 .faq .chevron .none {
   display: none;
 } 
 
-.faq .answer:hover .none {
+.faq:hover .text {
   display: inline-block;
 }
 
-.faq .chevron:hover .none {
+.faq:hover .none {
   display: inline-block;
 }
+
+.faq:hover .mouse {
+  display: none;
+}
+
+
+
+/* .faq .chevron:hover .mouse {
+  display: none;
+}
+
+.faq .chevron:hover .none  {
+  display: inline-block;
+} */
+
 
 
 
