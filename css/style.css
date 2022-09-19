@@ -535,13 +535,27 @@ main section .cubes.center {
 
 /* questions */
 
-.none {
-  display: none;
+.faq {
+  cursor: pointer;
 }
+
+.faq .answer .none,
+.faq .chevron .none {
+  display: none;
+} 
+
+.faq .answer:hover .none {
+  display: inline-block;
+}
+
+.faq .chevron:hover .none {
+  display: inline-block;
+}
+
+
 
 .faq {
   display: flex;
-  cursor: pointer;
 }
 
 .questions {
